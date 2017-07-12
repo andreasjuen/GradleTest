@@ -3,6 +3,7 @@ package de.gradlebuch;
 import java.util.List;
 import org.junit.*;
 import static org.junit.Assert.*;
+ 
 
 public class TestHelloWorld{
 	HelloWorld oUT;
@@ -18,3 +19,4 @@ public class TestHelloWorld{
 		assertEquals("Falsche Anzahl Eintraege", 1, res.size());
 	}
 }
+
