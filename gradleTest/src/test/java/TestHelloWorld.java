@@ -1,14 +1,14 @@
 package de.gradlebuch;
 
 import java.util.List;
-import org.junit.*;
-import static org.junit.Assert.*;
- 
+import static org.junit.Assert.assertEquals;;
+import static org.testng.AssertJUnit.*;
+import org.testng.annotations.*;
 
 public class TestHelloWorld{
 	HelloWorld oUT;
 	
-	@Before
+	@BeforeTest
 	public void setUp(){
 		oUT = new HelloWorld();
 	}
